@@ -9,6 +9,6 @@ describe('compute_elements_sum', function() {
   it('计算给定集合元素的总和', function() {
     var result = compute_elements_sum(collection);
 
-    expect(result).toEqual(15);
+    expect(result).toEqual(115);
   });
 });
