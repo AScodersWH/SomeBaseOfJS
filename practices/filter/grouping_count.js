@@ -7,6 +7,7 @@ function grouping_count(collection) {
     if(ele in result) result[ele]+=1;
     else result[ele]=1;
   }
+
   )
   return result;
 }

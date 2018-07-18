@@ -2,7 +2,10 @@
 
 function even_to_letter(collection) {
 
-  //在这里写入代码
+  var result =  collection.filter(ellen=>ellen%2==0);
+  return result.map(ellen=>
+    String.fromCharCode(ellen+96));
+
 }
 
 module.exports = even_to_letter;
